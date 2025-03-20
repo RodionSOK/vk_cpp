@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "(lldb) Запустить",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.out",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build"
+        }, 
+
+    ], 
+}
